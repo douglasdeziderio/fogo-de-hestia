@@ -1,0 +1,56 @@
+.rodape{
+    padding: 30px 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+}
+
+.rodape-rodape{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape-div{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-texto{
+    font-family: var(--font-pri);
+    font-size: 20px;
+    text-align: start;
+}
+
+.rodape-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a.bi-globe-americas, a.bi-instagram, a.bi-whatsapp{
+    color: #fff;
+    font-size: 30px;
+}
+
+.rodape-copy{
+    font-family: var(--font-pri);
+}
+
+@media screen and (max-width: 1280px){
+    .rodape-rodape{
+        flex-direction: column;
+    }
+
+    .rodape-icon{
+        flex-direction: row;
+        gap: 50px;
+    }
+}
